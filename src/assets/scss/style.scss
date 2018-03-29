@@ -1,9 +1,12 @@
 $text: #48434E;
-$headings: #4E6E58;
+$headings: #003554;
 $background: #F2F6D0;
 $white: #ffffff;
 
 body {
-    background: $background;
+    background: linear-gradient(#00C9FF, #92FE9D) no-repeat;
+    background-size: cover;
+    margin: 0;
+    min-height: calc(100vh - 80px);
     font-family: 'Lato', sans-serif;
 }
